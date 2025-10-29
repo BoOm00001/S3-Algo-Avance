@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="En-têtesPrécompilés">
+      <UniqueIdentifier>{96905b04-9907-42b3-aac0-4d320c6f9b87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dlls">
+      <UniqueIdentifier>{25079223-6d81-479c-b54b-df13047e3b40}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="tp1.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>En-têtesPrécompilés</Filter>
+    </ClInclude>
+    <ClInclude Include="Dot.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="SquareFinder.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Square.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="FinderType.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="TPProfLib.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="SquareSide.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="tp1.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>En-têtesPrécompilés</Filter>
+    </ClCompile>
+    <ClCompile Include="Dot.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SquareFinder.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SquareSide.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Square.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="..\extern\SFML\bin\openal32.dll" />
+    <CopyFileToFolders Include="..\extern\SFML\bin\sfml-audio-2.dll" />
+    <CopyFileToFolders Include="..\extern\SFML\bin\sfml-audio-d-2.dll" />
+    <CopyFileToFolders Include="..\extern\SFML\bin\sfml-graphics-2.dll" />
+    <CopyFileToFolders Include="..\extern\SFML\bin\sfml-graphics-d-2.dll" />
+    <CopyFileToFolders Include="..\extern\SFML\bin\sfml-network-2.dll" />
+    <CopyFileToFolders Include="..\extern\SFML\bin\sfml-network-d-2.dll" />
+    <CopyFileToFolders Include="..\extern\SFML\bin\sfml-system-2.dll" />
+    <CopyFileToFolders Include="..\extern\SFML\bin\sfml-system-d-2.dll" />
+    <CopyFileToFolders Include="..\extern\SFML\bin\sfml-window-2.dll" />
+    <CopyFileToFolders Include="..\extern\SFML\bin\sfml-window-d-2.dll" />
+  </ItemGroup>
+</Project>
